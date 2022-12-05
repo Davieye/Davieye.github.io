@@ -44,5 +44,54 @@
 </script>
 
 <style>
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --grå: #6b7280;
+    --vit: #EEE;
+    --ros: #FF0000;
+    --lila: #8b5cf6;
+}
 
-</style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: var(--dark);
+    color: #FFF;
+}
+
+header {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--grå);
+    margin-bottom: 1rem; 
+}
+
+#ny-task-form {
+    display: flex;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#ny-task-input {
+    flex: 1 1 0%;
+}
+    </style>
