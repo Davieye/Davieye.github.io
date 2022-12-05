@@ -63,7 +63,8 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: var(--dark);
+    min-height: 100vh;
+    background: var(--dark);
     color: #FFF;
 }
 
