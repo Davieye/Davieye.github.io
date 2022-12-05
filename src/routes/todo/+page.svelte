@@ -8,7 +8,7 @@
             placeholder="Vad har du planerat?"/>
         <input 
             type="submit"
-            id="new-task-submit"
+            id="ny-task-submit"
             value="Lägg till" />
     </form>
 
@@ -93,5 +93,35 @@ input, button {
 
 #ny-task-input {
     flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--vit);
+    font-size: 1.25rem;
+
+}
+
+#ny-task-input::placeholder {
+    color: var(--grå);
+}
+
+#ny-task-submit {
+    color: var(--ros);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--ros),var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#ny-task-submit:hover {
+    opacity: 0.8;
+}
+
+#ny-task-submit:active {
+    opacity: 0.6;
 }
     </style>
