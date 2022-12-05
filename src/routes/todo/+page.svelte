@@ -14,6 +14,28 @@
 
 
 </header>
+
+<main>
+    <section class="ärende-lista">
+        <h2>att-göra-lista</h2>
+        <div id="ärende">
+         
+            <div class="ärende">
+                <div class="kontent">
+                 <input 
+                    type="text"
+                    class="text"
+                    value="King ärende"
+                    readonly 
+                />
+        </div>
+        <div class="actions">
+            <button class="edit">Edit</button>
+            <button class="edit">Delete</button>
+        </div>
+    </section>
+</main>
+
 </body> 
 
 
