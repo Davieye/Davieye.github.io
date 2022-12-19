@@ -108,6 +108,7 @@ input, button {
 }
 
 #ny-task-submit {
+    
     color: var(--ros);
     font-size: 1.25rem;
     font-weight: 700;
@@ -124,5 +125,24 @@ input, button {
 
 #ny-task-submit:active {
     opacity: 0.6;
+}
+
+main {
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ärende-lista {
+    padding: 1rem;
+}
+
+.ärende-lista h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--darker);
+    margin-bottom: 1rem;
 }
     </style>
