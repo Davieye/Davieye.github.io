@@ -154,12 +154,12 @@
     "file": "_app/immutable/assets/_page-2870e030.css",
     "src": "src/routes/memory/+page.css"
   },
-  "src/routes/todo/+page.css": {
-    "file": "_app/immutable/assets/_page-6d91472c.css",
-    "src": "src/routes/todo/+page.css"
-  },
   "src/routes/telltale/+page.css": {
     "file": "_app/immutable/assets/_page-b0fc2a67.css",
     "src": "src/routes/telltale/+page.css"
+  },
+  "src/routes/todo/+page.css": {
+    "file": "_app/immutable/assets/_page-6d91472c.css",
+    "src": "src/routes/todo/+page.css"
   }
 }
