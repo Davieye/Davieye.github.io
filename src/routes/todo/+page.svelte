@@ -45,9 +45,9 @@
 <script>
 
 window.addEventListener('load', () =>{
-    const form = document.querySelector("#ny-task-form")
-    const input = document.querySelector("#ny-task-input")
-    const list_el = document.querySelector("#ärende")   
+    const form = document.querySelector("#ny-task-form");
+    const input = document.querySelector("#ny-task-input");
+    const list_el = document.querySelector("#ärende");   
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
