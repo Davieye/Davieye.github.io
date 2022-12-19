@@ -55,9 +55,9 @@ window.addEventListener('load', () =>{
         const ärende = input.value;
 
         if (!ärende) {
-            alert("Please add a task")
+            alert("Please add a task");
         } else {
-            console.log("Success")
+            console.log("Success");
         }
     })
 })
