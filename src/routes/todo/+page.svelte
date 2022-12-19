@@ -56,9 +56,19 @@ window.addEventListener('load', () =>{
 
         if (!ärende) {
             alert("Please add a task");
-        } else {
-            console.log("Success");
-        }
+            return;
+        } 
+        const ärende_el = document.createElement("div");
+        ärende_el.classList.add("ärende");
+
+        const ärende_content_el = document.createElement("div");
+        ärende_content_el.classList.add("kontent");
+        ärende_content_el.innerText = test;
+
+        ärende_el.appendChild(ärende_content_el);
+
+        list_el.appendChild(ärende_el);
+
     })
 })
 
