@@ -50,7 +50,7 @@
     --darkest: #111827;
     --grå: #6b7280;
     --vit: #EEE;
-    --ros: #FF0000;
+    --ros: #00ff6e;
     --lila: #8b5cf6;
 }
 
@@ -114,7 +114,7 @@ input, button {
     font-weight: 700;
     background-image: linear-gradient(to right, var(--ros),var(--purple));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     cursor: pointer;
     transition: 0.4s;
 }
