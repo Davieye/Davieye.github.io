@@ -17,7 +17,7 @@ window.addEventListener('load', () =>{
 
         const ärende_content_el = document.createElement("div");
         ärende_content_el.classList.add("kontent");
-        ärende_content_el.innerText = test;
+        ärende_content_el.innerText = ärende;
 
         ärende_el.appendChild(ärende_content_el);
 
