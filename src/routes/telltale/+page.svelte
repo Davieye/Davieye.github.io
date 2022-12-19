@@ -95,7 +95,7 @@
     overflow-x: hidden;
   }
 
-  .edith{
+  .edit{
     color: aquamarine;
 
   }
