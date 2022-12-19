@@ -1,6 +1,6 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-f87d14c3.js",
+    "file": "_app/immutable/start-416b02c2.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -53,7 +53,7 @@
     ]
   },
   "src/routes/telltale/+page.svelte": {
-    "file": "_app/immutable/components/pages/telltale/_page.svelte-472e3dea.js",
+    "file": "_app/immutable/components/pages/telltale/_page.svelte-2ee4118c.js",
     "src": "src/routes/telltale/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -61,11 +61,11 @@
       "_index-1645db2a.js"
     ],
     "css": [
-      "_app/immutable/assets/_page-152f6357.css"
+      "_app/immutable/assets/_page-b0fc2a67.css"
     ]
   },
   "src/routes/todo/+page.svelte": {
-    "file": "_app/immutable/components/pages/todo/_page.svelte-95c6a62f.js",
+    "file": "_app/immutable/components/pages/todo/_page.svelte-c6bdcaf7.js",
     "src": "src/routes/todo/+page.svelte",
     "isEntry": true,
     "imports": [
@@ -135,7 +135,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {
-    "file": "_app/immutable/chunks/4-bbf421e6.js",
+    "file": "_app/immutable/chunks/4-737229c7.js",
     "src": ".svelte-kit/generated/nodes/4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -143,7 +143,7 @@
     ]
   },
   ".svelte-kit/generated/nodes/5.js": {
-    "file": "_app/immutable/chunks/5-d86c889c.js",
+    "file": "_app/immutable/chunks/5-db0bffc7.js",
     "src": ".svelte-kit/generated/nodes/5.js",
     "isDynamicEntry": true,
     "imports": [
@@ -154,12 +154,12 @@
     "file": "_app/immutable/assets/_page-2870e030.css",
     "src": "src/routes/memory/+page.css"
   },
-  "src/routes/telltale/+page.css": {
-    "file": "_app/immutable/assets/_page-152f6357.css",
-    "src": "src/routes/telltale/+page.css"
-  },
   "src/routes/todo/+page.css": {
     "file": "_app/immutable/assets/_page-6d91472c.css",
     "src": "src/routes/todo/+page.css"
+  },
+  "src/routes/telltale/+page.css": {
+    "file": "_app/immutable/assets/_page-b0fc2a67.css",
+    "src": "src/routes/telltale/+page.css"
   }
 }
