@@ -20,7 +20,7 @@
         <h2>att-göra-lista</h2>
         <div id="ärende">
          
-            <div class="ärende">
+          <!-- <div class="ärende">
                 <div class="kontent">
                  <input 
                     type="text"
@@ -28,10 +28,13 @@
                     value="King ärende"
                     readonly 
                 />
-        </div>
-        <div class="actions">
-            <button class="edit">Edit</button>
-            <button class="edit">Delete</button>
+            </div>
+            <div class="actions">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button> 
+             </div>
+            </div>   -->
+      
         </div>
     </section>
 </main>
@@ -188,5 +191,13 @@ color: var(--ros) ;
 
 .ärende .actions button:active {
     opacity: 0.6;
+}
+
+.ärende .actions .edit {
+    color: #00ff6e;
+}
+
+.ärende .actions .delete {
+    color: crimson
 }
 </style>
