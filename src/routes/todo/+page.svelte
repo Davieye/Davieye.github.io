@@ -145,4 +145,48 @@ main {
     color: var(--darker);
     margin-bottom: 1rem;
 }
-    </style>
+
+#ärende .ärende {
+    display: flex ;
+    justify-content: space-between;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+#ärende .ärende .kontent .text
+{
+    color: var(--vit);
+    font-size: 1.125rem;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+#ärende .ärende .kontent .text:not(:read-only) {
+color: var(--ros) ;
+}
+
+#ärende .ärende .actions {
+    display: flex;
+    margin: 0 -0.5rem;
+}
+
+.ärende .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.ärende .actions button:hover {
+    opacity: 0.8;
+}
+
+.ärende .actions button:active {
+    opacity: 0.6;
+}
+</style>
