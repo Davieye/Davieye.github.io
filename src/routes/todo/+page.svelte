@@ -20,7 +20,7 @@
         <h2>att-göra-lista</h2>
         <div id="ärende">
          
-          <!-- <div class="ärende">
+           <div class="ärende">
                 <div class="kontent">
                  <input 
                     type="text"
@@ -33,7 +33,7 @@
                 <button class="edit">Edit</button>
                 <button class="delete">Delete</button> 
              </div>
-            </div>   -->
+            </div>   
       
         </div>
     </section>
@@ -43,38 +43,6 @@
 
 
 <script>
-
-window.addEventListener('load', () =>{
-    const form = document.querySelector("#ny-task-form");
-    const input = document.querySelector("#ny-task-input");
-    const list_el = document.querySelector("#ärende");   
-
-    form.addEventListener('submit', (e) => {
-        e.preventDefault();
-
-        const ärende = input.value;
-
-        if (!ärende) {
-            alert("Please add a task");
-            return;
-        } 
-        const ärende_el = document.createElement("div");
-        ärende_el.classList.add("ärende");
-
-        const ärende_content_el = document.createElement("div");
-        ärende_content_el.classList.add("kontent");
-        ärende_content_el.innerText = test;
-
-        ärende_el.appendChild(ärende_content_el);
-
-        list_el.appendChild(ärende_el);
-
-    })
-})
-
-
-
-
 
 </script>
 
@@ -148,7 +116,7 @@ input, button {
     font-size: 1.25rem;
     font-weight: 700;
     background-image: linear-gradient(to right, var(--ros),var(--purple));
-    -webkit-background-clip: text;
+    
     
     cursor: pointer;
     transition: 0.4s;
