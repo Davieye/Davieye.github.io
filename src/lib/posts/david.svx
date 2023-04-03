@@ -1,0 +1,30 @@
+---
+title: Davids inlägg
+date: "2023-04-03"
+---
+
+<script>
+    let temp = 0
+</script>
+
+# Koden för denna hemsida
+
+```svelte
+<script>
+    let temp = 0
+</script>
+
+<button on:click={()=>temp++}>{temp}</button>
+```
+
+
+<button on:click={()=>temp++}>{temp}</button>
+
+**BOOM**
+
+_boom_
+
+
+```html
+<h1>MIN HEADER</h1>
+```
